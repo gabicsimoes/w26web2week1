@@ -103,3 +103,9 @@ nav a:active{
     background-color: antiquewhite;
     color: plum;
 }
+
+section{
+    margin: 20px;
+    border: 2px black solid;
+    padding: 15px; /* padding pushes content away from the edge of the element */
+}
