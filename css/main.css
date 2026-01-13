@@ -80,3 +80,26 @@ section img{
    /* 4 values means top, right, bottom, left */
     margin:0 15px 15px 0;
 }
+
+nav a{
+    color: azure;
+    font-size: 1.2em; /* em is relative yo the font size of the parent - 1.2 = 120% */
+    text-decoration: none; /* removes the underlining */
+}
+
+/* links have states, which you style using pseudoclasses */
+nav a:hover{
+    color: crimson;
+}
+
+nav a:active{
+    color: orangered;
+}
+
+/* there is also a visited state, for when users have been to a link */
+
+/* style an id using # */
+#current{
+    background-color: antiquewhite;
+    color: plum;
+}
